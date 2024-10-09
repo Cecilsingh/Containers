@@ -1,0 +1,4 @@
+FROM postgres
+ENV POSTGRES_PASSWORD postgres
+ENV POSTGRES_PORT 5432
+USER postgres
